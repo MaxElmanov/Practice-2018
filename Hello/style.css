@@ -1,0 +1,873 @@
+html,body{ margin: 0px;padding: 0px; }
+
+/*-------------------------block part-------------------------*/
+
+.main {
+	position: relative;
+	background-color: #EAEDF1;  /* background */
+	width: 785px;
+	height: 950px;
+}
+
+.photo-name {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 230px;
+	height: 150px;
+	background-color: white;
+}
+
+.status{
+	position: absolute;
+	top: 40px;
+	left: 315px;
+	width: 430px;
+	height: 150px;
+	background-color: white;
+}
+
+.secret{
+	position: absolute;
+	top: 210px;
+	left: 40px;
+	width: 325px;
+	height: 180px;
+	background-color: white;
+}
+
+.cortix{
+	position: absolute;
+	top: 410px;
+	left: 40px;
+	width: 325px;
+	height: 180px;;
+	background-color: white;
+}
+
+.ademe{
+	position: absolute;
+	top: 610px;
+	left: 40px;
+	width: 325px;
+	height: 85px;
+	background-color: white;
+}
+
+.impecToonga{
+	position: absolute;
+	top: 715px;
+	left: 40px;
+	width: 325px;
+	height: 85px;
+	background-color: white;
+}
+
+div.imgVertStick img{
+	position: absolute;
+	left: 370px;
+	top: 210px;
+	width: 40px;
+	height: 645px;
+}
+
+.yelp{
+	position: absolute;
+	top: 210px;
+	left: 415px;
+	width: 330px;
+	height: 85px;
+	background-color: #DBE1E8;
+}
+
+.qoqa{
+	position: absolute;
+	top: 315px;
+	left: 415px;
+	width: 330px;
+	height: 85px;
+	background-color: #DBE1E8;
+}
+
+div.imgHorStick img{
+	position: absolute;
+	left: 415px;
+	top: 415px;
+	width: 330px;
+	height: 5px;
+}
+
+.cefire{
+	position: absolute;
+	top: 435px;
+	left: 415px;
+	width: 330px;
+	height: 85px;
+	background-color: #DBE1E8;
+}
+
+.ecole{
+	position: absolute;
+	top: 540px;
+	left: 415px;
+	width: 330px;
+	height: 85px;
+	background-color: #DBE1E8;
+}
+
+.icons{
+	position: absolute;
+	top: 645px;
+	left: 415px;
+	width: 330px;
+	height: 205px;
+	background-color: white;
+}
+
+.quote{
+	position: absolute;
+	top: 875px;
+	left: 235px;
+	width: 370px;
+	height: 30px;
+	font-size: 10px;
+	font-style: italic;
+	color: #33495F;
+}
+
+.quote > img {
+	position: relative;
+	width: 22px;
+	height: 17px;
+	margin-left: 5px;
+	margin-right: 5px;
+	top: 4px;
+}
+
+/*-------------------------iniside part photo-name-------------------------*/
+
+.photo-name .face {
+	width: 80px;
+	height: 80px;
+	background: white url("img/face.png") no-repeat 0 0;
+	border-radius: 50%;
+	margin: 20px 0 20px 20px;
+}
+
+.photo-name .name {
+	position: relative;
+	width: 100px;
+	height: 80px;
+	margin-left: 115px;
+	margin-top: -70px;
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+.photo-name .name > span.Bordeaux-33 {
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	top: 20px;
+	left: 0px;
+	font-weight: normal;
+	font-family: calibri;
+	font-size: 11px;
+}
+
+.photo-name .ans-30{
+	position: relative;
+	width: 57.5px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: 0px;
+	background-color: #16C4EC;
+}
+.photo-name .francase{
+	position: relative;
+	width: 57.5px;
+	height: 40px;
+	margin-top: -40px;
+	margin-left: 57.5px;
+	background-color: #FA5351;
+}
+.photo-name .permis{
+	position: relative;
+	width: 57.5px;
+	height: 40px;
+	margin-top: -40px;
+	margin-left: 115px;
+	background-color: #10CDC1;
+}
+.photo-name .non{
+	position: relative;
+	width: 57.5px;
+	height: 40px;
+	margin-top: -40px;
+	margin-left: 172.5px;
+	background-color: #33495F;
+}
+
+.photo-name .ans-30 span img{
+	position: absolute;
+	width: 11px;
+	height: 8px;
+	left: 22px;
+	top: 8px;
+}
+.photo-name .ans-30 .text-30-ans {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	font-family: Calibri;
+	font-size: 11px;
+	color: white;
+}
+
+
+.photo-name .francase span img{
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	left: 20px;
+	top: 7px;
+}
+.photo-name .francase .text-francase {
+	position: absolute;
+	left: 5px;
+	top: 20px;
+	font-family: Calibri;
+	font-size: 11px;
+	color: white;
+}
+
+
+.photo-name .permis span img{
+	position: absolute;
+	width: 13px;
+	height: 9px;
+	left: 22px;
+	top: 8px;
+}
+.photo-name .permis .text-permis {
+	position: absolute;
+	left: 7px;
+	top: 20px;
+	font-family: Calibri;
+	font-size: 11px;
+	color: white;
+}
+
+
+.photo-name .non span img{
+	position: absolute;
+	width: 13px;
+	height: 9px;
+	left: 22px;
+	top: 8px;
+}
+.photo-name .non .text-non {
+	position: absolute;
+	left: 17px;
+	top: 20px;
+	font-family: Calibri;
+	font-size: 11px;
+	color: white;
+}
+
+/*-------------------------iniside part status-------------------------*/
+
+.status .status-caption {
+	position: relative;
+	font-weight: bold;
+	font-size: 19px;
+	color: #33495F;
+	width: 200px;
+	height: 30px;
+	margin: 20px;
+	font-family: Calibri;
+}
+.status .status-caption .status-description{
+	position: absolute;
+	font-size: 10px;
+	color: #33495F;
+	line-height: 15px;
+	white-space: normal;
+	padding-top: 5px;
+}
+
+.status .status-caption .status-description a{
+	color: #16C4EC;
+}
+
+.status .emails{
+	position: relative;
+	left: 255px;
+	top: -25px;
+	width: 145px;
+	font-size: 13px;
+	line-height: 25px;
+	font-family: Calibri;
+	color: #33495F;
+}
+.status .emails #redEmail{
+	position: absolute;
+	font-size: 15.5px;
+	line-height: 25px;
+	color: #FA5351;
+}
+
+.status .social {
+	float: left;
+	width: 35px;
+	height: 30px;
+	background-color: white;
+	margin-top: 10px;
+}
+.status .social-tv img{
+	width: 20px;
+	height: 14px;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+.status .social-basket img{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.status .social-Be img{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.status .social-inst img{
+	width: 19px;
+	height: 19px;
+	margin-left: 8px;
+	margin-top: 5px;
+}
+.status .social-lamp img{
+	width: 18px;
+	height: 18px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.status .social-in img{
+	width: 17px;
+	height: 17px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+/*-------------------------inside part secret-------------------------*/
+
+.secret .secret-caption{
+	position: relative;
+}
+
+.secret .secretVelvet-footer {
+	position: relative;
+}
+
+/*-------------------------common part for secret and confix and for ademe & impecToonga-------------------------*/
+
+.caption-black {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+	font-weight: bold;
+	color: #33495F;
+	font-family: Calibri;
+	font-size: 15px;
+}
+.caption-grey {
+	position: absolute;
+	top: 16px;
+	left: 103px;
+	color: lightgrey;
+	font-family: Calibri;
+	font-size: 11px;
+}
+.caption-Tifani {
+	position: absolute;
+	top: 32px;
+	left: 15px;
+	color: #04BCA6;
+	font-weight: bold;
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+
+.secretVelvet-footer img[alt="map-mark"]{
+	position: absolute;
+	left: 10px;
+	top: 123px;
+	width: 12px;
+	height: 12px;
+}
+.secretVelvet-footer .text-map-mark{
+	position: absolute;
+	left: 23px;
+	top: 122px;
+	font-size: 10px;
+	font-family: Calibri;
+	color: #BBC1C9;
+}
+.secretVelvet-footer img[alt="reset"]{
+	position: absolute;
+	left: 88px;
+	top: 123px;
+	width: 12px;
+	height: 12px;
+}
+.secretVelvet-footer .text-resetArrow{
+	position: absolute;
+	left: 101px;
+	top: 122px;
+	font-size: 9px;
+	font-family: Calibri;
+	color: #BBC1C9;
+}
+.secretVelvet-footer input{
+	position: absolute;
+	left: 202px;
+	top: 115px;
+	width: 115px;
+	max-height: 25px;
+	font-size: 10px;
+	height: 25px;
+	background-color: #16C4EC;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+}
+
+/*-------------------------common part for secret and confix-------------------------*/
+
+.list {
+	position: relative;
+	font-size: 9px;
+	font-family: Calibri;
+	margin-top: 10px;
+	color: #7E8894;
+}
+.list-row-1 {
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	width: 325px;
+}
+.list-row-2 {
+	position: absolute;
+	left: 10px;
+	top: 50px;
+	width: 325px;
+}
+.list-row-3 {
+	position: absolute;
+	left: 10px;
+	top: 70px;
+	width: 325px;
+}
+.list-row-4 {
+	position: absolute;
+	left: 10px;
+	top: 90px;
+	width: 325px;
+}
+.list div img {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-right: 2px;
+	margin-top: -2px;
+}
+
+
+/*-------------------------inside part cortix-------------------------*/
+
+.cortix .secretVelvet-footer {
+	position: relative;
+}
+
+/*-------------------------common parts cefire and ecole-------------------------*/
+
+.stars {
+	margin-left: 260px;
+	margin-top: 40px;
+}
+
+.stars img{
+	display: inline-block;
+	margin-right: -3px;
+}
+
+/*-------------------------inside parts icons-------------------------*/
+
+.icons .top-icons {}
+
+.icon .top-icons .icon-webaddict {
+	position: relative;
+}
+
+.icon .top-icons .icon-serivore {
+	position: relative;
+}
+
+.icon .top-icons .icon-melomane {
+	position: relative;
+}
+
+.icon .top-icons .icon-fashionista {
+	position: relative;
+}
+
+.icon .top-icons .icon-epicurienne {
+	position: relative;
+}
+
+.icon .top-icons .icon-voyageuse {
+	position: relative;
+}
+
+.icons .top-icons img {
+	width: 40px;
+	height: 40px;
+}
+
+.icons .top-icons span {
+	font-size: 8px;
+	font-weight: bold;
+	color: #495B6E;
+	font-family: Calibri;
+}
+
+.icons .top-icons img#imgWebaddict {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.icons .top-icons span.text-webaddict {
+	position: absolute;
+	left: 10px;
+	top: 55px;
+}
+
+.icons .top-icons img#imgSerivore {
+	position: absolute;
+	left: 64px;
+	top: 10px;
+}
+.icons .top-icons span.text-serivore {
+	position: absolute;
+	left: 68px;
+	top: 55px;
+}
+
+.icons .top-icons img#imgMelomane {
+	position: absolute;
+	left: 118px;
+	top: 10px;
+}
+.icons .top-icons span.text-melomane {
+	position: absolute;
+	left: 117px;
+	top: 55px;
+}
+
+.icons .top-icons img#imgFasionista {
+	position: absolute;
+	left: 172px;
+	top: 10px;
+}
+.icons .top-icons span.text-fasionista {
+	position: absolute;
+	left: 170px;
+	top: 55px;
+}
+
+.icons .top-icons img#imgEpicurienne {
+	position: absolute;
+	left: 225px;
+	top: 10px;
+}
+.icons .top-icons span.text-epicurienne {
+	position: absolute;
+	left: 223px;
+	top: 55px;
+}
+
+.icons .top-icons img#imgVoyageuse {
+	position: absolute;
+	left: 278px;
+	top: 10px;
+}
+.icons .top-icons span.text-voyageuse {
+	position: absolute;
+	left: 276px;
+	top: 55px;
+}
+
+/*-----------Progressbars---------*/
+
+/*.prgressbars .block1-progressbar {
+	position: relative;
+}*/
+.prgressbars #block2-progressbar {
+	position: relative;
+}
+.prgressbars #block3-progressbar {
+	position: relative;
+}
+.prgressbars #block4-progressbar {
+	position: relative;
+}
+.prgressbars #block5-progressbar {
+	position: relative;
+}
+.prgressbars #block6-progressbar {
+	position: relative;
+}
+.prgressbars #block7-progressbar {
+	position: relative;
+}
+.prgressbars #block8-progressbar {
+	position: relative;
+}
+
+/*progressbar-1*/
+.progressbars #block1-progressbar #text-Photoshop {
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block1-progressbar #progressbar-border-1 {
+	position: absolute;
+	top: 93px;
+	left: 10px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block1-progressbar #progressbar-border-1 #progressbar-inside-1{
+	float:left;
+	background-color: #10CDC1;
+	width: 80%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color:  white;
+}
+
+/*progressbar-2*/
+.progressbars #block2-progressbar #text-Illustrator {
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block2-progressbar #progressbar-border-2 {
+	position: absolute;
+	top: 123px;
+	left: 10px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block2-progressbar #progressbar-border-2 #progressbar-inside-2{
+	float: left;
+	background-color: #10CDC1;
+	width: 55%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color: white;
+}
+
+/*progressbar-3*/
+.progressbars #block3-progressbar #text-Wordpress {
+	position: absolute;
+	top: 140px;
+	left: 10px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block3-progressbar #progressbar-border-3 {
+	position: absolute;
+	top: 153px;
+	left: 10px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block3-progressbar #progressbar-border-3 #progressbar-inside-3{
+	float: left;
+	background-color: #10CDC1;
+	width: 95%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color: white;
+}
+
+/*progressbar-4*/
+.progressbars #block4-progressbar #text-Prestashop {
+	position: absolute;
+	top: 170px;
+	left: 10px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block4-progressbar #progressbar-border-4 {
+	position: absolute;
+	top: 183px;
+	left: 10px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block4-progressbar #progressbar-border-4 #progressbar-inside-4{
+	float: left;
+	background-color: #10CDC1;
+	width: 85%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color: white;
+}
+
+/*progressbar-5*/
+.progressbars #block5-progressbar #text-Referencement {
+	position: absolute;
+	top: 80px;
+	left: 160px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block5-progressbar #progressbar-border-5 {
+	position: absolute;
+	top: 93px;
+	left: 160px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block5-progressbar #progressbar-border-5 #progressbar-inside-5{
+	float:left;
+	background-color: #16C4EC;
+	width: 60%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color:  white;
+}
+
+/*progressbar-6*/
+.progressbars #block6-progressbar #text-Reseaux {
+	position: absolute;
+	top: 110px;
+	left: 160px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block6-progressbar #progressbar-border-6 {
+	position: absolute;
+	top: 123px;
+	left: 160px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block6-progressbar #progressbar-border-6 #progressbar-inside-6{
+	float: left;
+	background-color: #16C4EC;
+	width: 75%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color: white;
+}
+
+/*progressbar-7*/
+.progressbars #block7-progressbar #text-UI-Design {
+	position: absolute;
+	top: 140px;
+	left: 160px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block7-progressbar #progressbar-border-7 {
+	position: absolute;
+	top: 153px;
+	left: 160px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block7-progressbar #progressbar-border-7 #progressbar-inside-7{
+	float: left;
+	background-color: #16C4EC;
+	width: 55%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color: white;
+}
+
+/*progressbar-8*/
+.progressbars #block8-progressbar #text-User {
+	position: absolute;
+	top: 170px;
+	left: 160px;
+	color: #34495E;
+	font-family: Calibri;
+	font-size: 9.5px;
+}
+.progressbars #block8-progressbar #progressbar-border-8 {
+	position: absolute;
+	top: 183px;
+	left: 160px;
+	background-color: #DBE1E8;
+	width: 140px;
+	height: 8px;
+	border-radius: 10px;
+}
+.progressbars #block8-progressbar #progressbar-border-8 #progressbar-inside-8{
+	float: left;
+	background-color: #16C4EC;
+	width: 60%;
+	height: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 8px;
+	color: white;
+}
